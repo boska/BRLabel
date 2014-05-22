@@ -8,4 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/boska/BRLabel.git", :tag => "0.0.1" }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
+  s.platform     = :ios, '5.0'
+  s.requires_arc = true
 end
