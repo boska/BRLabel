@@ -21,7 +21,7 @@
 		8DBA66A3192DF82500D59F17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBA6685192DF82500D59F17 /* UIKit.framework */; };
 		8DBA66AB192DF82500D59F17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA66A9192DF82500D59F17 /* InfoPlist.strings */; };
 		8DBA66AD192DF82500D59F17 /* BRLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA66AC192DF82500D59F17 /* BRLabelDemoTests.m */; };
-		8DBA66B9192DF84300D59F17 /* BRLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA66B8192DF84300D59F17 /* BRLabel.m */; };
+		8DBA66BE192E08B900D59F17 /* BRLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA66BD192E08B900D59F17 /* BRLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		8DBA66A8192DF82500D59F17 /* BRLabelDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BRLabelDemoTests-Info.plist"; sourceTree = "<group>"; };
 		8DBA66AA192DF82500D59F17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DBA66AC192DF82500D59F17 /* BRLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRLabelDemoTests.m; sourceTree = "<group>"; };
-		8DBA66B7192DF84300D59F17 /* BRLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRLabel.h; sourceTree = "<group>"; };
-		8DBA66B8192DF84300D59F17 /* BRLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRLabel.m; sourceTree = "<group>"; };
+		8DBA66BC192E08B900D59F17 /* BRLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRLabel.h; sourceTree = "<group>"; };
+		8DBA66BD192E08B900D59F17 /* BRLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 		8DBA6675192DF82500D59F17 = {
 			isa = PBXGroup;
 			children = (
-				8DBA66B6192DF83400D59F17 /* BRLabel */,
+				8DBA66BA192E08B900D59F17 /* Classes */,
 				8DBA6687192DF82500D59F17 /* BRLabelDemo */,
 				8DBA66A6192DF82500D59F17 /* BRLabelDemoTests */,
 				8DBA6680192DF82500D59F17 /* Frameworks */,
@@ -156,11 +156,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8DBA66B6192DF83400D59F17 /* BRLabel */ = {
+		8DBA66BA192E08B900D59F17 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8DBA66B7192DF84300D59F17 /* BRLabel.h */,
-				8DBA66B8192DF84300D59F17 /* BRLabel.m */,
+				8DBA66BB192E08B900D59F17 /* BRLabel */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8DBA66BB192E08B900D59F17 /* BRLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA66BC192E08B900D59F17 /* BRLabel.h */,
+				8DBA66BD192E08B900D59F17 /* BRLabel.m */,
 			);
 			path = BRLabel;
 			sourceTree = "<group>";
@@ -262,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DBA66B9192DF84300D59F17 /* BRLabel.m in Sources */,
+				8DBA66BE192E08B900D59F17 /* BRLabel.m in Sources */,
 				8DBA6698192DF82500D59F17 /* BRViewController.m in Sources */,
 				8DBA6692192DF82500D59F17 /* BRAppDelegate.m in Sources */,
 				8DBA668E192DF82500D59F17 /* main.m in Sources */,
