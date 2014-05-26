@@ -5,11 +5,20 @@ BRLabel
 
 BRLabel can show a shuffle animation when set text on it.
 
-Swap original UILabel
+Install via cocoapods
 
-```
-[self.label setTextWithShuffle:@"123456789"];
-```
+    pod 'BRLabel'
+
+and 
+
+
+    #import <BRLabel.h>
+
+Than you can swap original UILabel
+
+
+    [self.label setTextWithShuffle:@"123456789"];
+
 
 
 TODO
