@@ -14,6 +14,6 @@ Swap original UILabel
 
 TODO
 
-[] String shffle
-[] Duration specified method
-[] Animation style
+- [ ] String shffle
+- [ ] Duration specified method
+- [ ] Animation style
